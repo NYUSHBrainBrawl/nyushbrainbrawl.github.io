@@ -7,7 +7,7 @@ document.querySelector('#stories').style.maxHeight = "720px";
 function expand (obj) {
 	console.log(obj.style.maxHeight +" "+ obj.className);
 	if (obj.style.maxHeight == min_height) {
-		obj.style.maxHeight = "720px";
+		obj.style.maxHeight = "1600px";
 		obj.className = "panel open";
 	}else {
 		obj.style.maxHeight = min_height;
