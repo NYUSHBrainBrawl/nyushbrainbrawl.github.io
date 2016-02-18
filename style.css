@@ -7,7 +7,7 @@
 	text-align: center;
 	font-family: 'Open Sans Light', Arial, sans-serif;
 }
-p {
+p, ul {
 	text-align: justify;
 }
 a {
@@ -17,20 +17,33 @@ a {
 #header {
 	width: 100%;
 	height: 196px;
-	background: linear-gradient(180deg, indigo -50%, navy 50%, teal 200%);
+	background: linear-gradient(50deg, blue 20%, white 50%, red 80%);
 }
 
 .btn {
-	position: absolute;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
 }
 .btn a {
 	display: inline-block;
-	margin: 0;
-	width: 100%;
-	height: 100%;
+	margin-top: 6px;
+	margin-bottom: 18px;
+	width: 200px;
+	height: 48px;
+	line-height: 48px;
+	background-color: white;
 	border-radius: 5px;
-	width: 100px;
+	border: 2px solid #57068c;
+	font-weight: 500;
 	padding: 5px;
+	color: #57068c;
+	-webkit-transition: color 0.3s, background-color 0.3s;
+	transition: color 0.3s, background-color 0.3s;
+}
+.btn a:hover {
+	color: white;
+	background-color: #57068c;
 }
 
 .panel {
@@ -44,7 +57,7 @@ a {
 }
 .panel:hover {
 	cursor: pointer;
-	background: linear-gradient(180deg, teal, white 160px);
+	background: linear-gradient(180deg, #57068c, white 160px);
 }
 .open {
 
