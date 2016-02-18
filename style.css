@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 #content {
 	width: 110%;
 	margin-left: -5%;
 	margin-top: -16px;
 	text-align: center;
-	font-family: 'Open Sans Light', Arial, sans-serif;
+	font-family: 'Poiret One', 'Open Sans Light', Arial, sans-serif;
 }
 p, ul {
 	text-align: justify;
@@ -17,7 +17,29 @@ a {
 #header {
 	width: 100%;
 	height: 196px;
-	background: linear-gradient(50deg, blue 20%, white 50%, red 80%);
+	background: linear-gradient(50deg, navy 30%, white 50%, #f30 70%);
+}
+#header img {
+	position: absolute;
+	height: 180px;
+	margin-top: 16px;
+	margin-left: -90px;
+}
+.headtext p, h3 {
+	color: white;
+	text-align: center;
+}
+#time {
+	font-size: 20px;
+	position: absolute;
+	left: 120px;
+	top: 10px;
+}
+#place {
+	font-size: 20px;
+	position: absolute;
+	right: 100px;
+	top: 10px;
 }
 
 .btn {
@@ -34,16 +56,16 @@ a {
 	line-height: 48px;
 	background-color: white;
 	border-radius: 5px;
-	border: 2px solid #57068c;
-	font-weight: 500;
+	border: 2px solid #57b;
+	font-weight: 700;
 	padding: 5px;
-	color: #57068c;
+	color: #57b;
 	-webkit-transition: color 0.3s, background-color 0.3s;
 	transition: color 0.3s, background-color 0.3s;
 }
 .btn a:hover {
 	color: white;
-	background-color: #57068c;
+	background-color: #57b;
 }
 
 .panel {
@@ -52,12 +74,13 @@ a {
 	margin: 0 auto;
 	border-top: 1px solid black;
 	background-color: white;
+	font-weight: 700;
 	-webkit-transition: max-height 0.5s;
 	transition: max-height 0.5s;
 }
 .panel:hover {
 	cursor: pointer;
-	background: linear-gradient(180deg, #57068c, white 160px);
+	background: linear-gradient(180deg, #8af 20%, #f30 140%);
 }
 .open {
 
@@ -72,10 +95,13 @@ a {
 
 #rules {
 	z-index: 10;
+
 }
 #signup {
 	z-index: 20;
+
 }
 #stories {
 	z-index: 30;
+
 }
