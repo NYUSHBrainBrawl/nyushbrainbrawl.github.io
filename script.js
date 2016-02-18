@@ -1,6 +1,6 @@
-var min_height = "120px";
+var min_height = "100px";
 
-//document.querySelector('#rules').style.maxHeight = min_height;
+document.querySelector('#rules').style.maxHeight = min_height;
 document.querySelector('#signup').style.maxHeight = min_height;
 document.querySelector('#stories').style.maxHeight = "720px";
 
