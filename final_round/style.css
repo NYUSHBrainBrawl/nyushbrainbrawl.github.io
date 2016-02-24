@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "bbfont";
-	src: "nyushbrainbrawl.github.io/fonts/bbfont.ttf";
+	src: url("http://nyushbrainbrawl.github.io/fonts/bbfont.ttf");
 }
 
 body {
