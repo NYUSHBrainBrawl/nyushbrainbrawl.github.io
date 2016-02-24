@@ -7,16 +7,20 @@
 </head>
 <body>
 <div id="content">
-	<img src="..\images\bblogo.png" id="logo" onclick="increase();">
-	<div id="teamR" class="team">
+	<img src="..\images\bblogo.png" id="logo" onclick="showdownStart();">
+	<div id="teamR" class="team" onclick="increaseR();">
 		<div id="barR" class="bar"></div>
 		<div class="text">
-			<h3>87.40</h3>
+			<h3 id="numberR">0</h3>
 			<h3>Red Team</h3>
 		</div>
 	</div>
-	<div id="teamB" class="team">
+	<div id="teamB" class="team" onclick="increaseB();">
 		<div id="barB" class="bar"></div>
+		<div class="text">
+			<h3 id="numberB">0</h3>
+			<h3>Blue Team</h3>
+		</div>
 	</div>		
 </div>
 <script type="text/javascript" src="script.js"></script>

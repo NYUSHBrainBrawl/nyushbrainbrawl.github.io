@@ -6,6 +6,11 @@
 body {
 	background-color: #233;
 }
+h3 {
+	font-size: 32px;
+	margin: 0;
+
+}
 
 #content {
 	width: 100%;
@@ -29,12 +34,11 @@ body {
 	position: absolute;
 	width: 10%;
 	height: 60%;
-	bottom: 20%;
+	bottom: 15%;
 }
 .bar {
 	width: 80%;
-	height: 10%;
-	max-height: 80%;
+	height: 0;
 	position: absolute;
 	vertical-align: bottom;
 	bottom: 20%;
@@ -43,6 +47,7 @@ body {
 	border-style: solid;
 	border-color: white;
 	border-width: 1px 1px 0 1px;
+	transition: height 0.5s;
 }
 .text {
 	width: 100%;
