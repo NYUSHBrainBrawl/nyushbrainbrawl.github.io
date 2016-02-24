@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "bbfont";
+	src: "nyushbrainbrawl.github.io/fonts/bbfont.ttf";
+}
+
+body {
+	background-color: #233;
+}
+
+#content {
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	position: absolute;
+	width: 20%;
+	top: 50%;
+	left: 50%;
+	margin: -10% -10%;
+}
+
+#logo:hover {
+	width: 26%;
+	margin: -13% -13%; 
+}
+
+.team {
+	position: absolute;
+	width: 10%;
+	height: 60%;
+	bottom: 20%;
+}
+.bar {
+	width: 80%;
+	height: 10%;
+	max-height: 80%;
+	position: absolute;
+	vertical-align: bottom;
+	bottom: 20%;
+	left: 10%;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px 1px 0 1px;
+}
+.text {
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	vertical-align: bottom;
+	top: 80%;
+	color: white;
+	font-family: "bbfont", Arial, sans-serif;
+}
+
+#teamR {
+	position: absolute;
+	left: 15%;
+}
+#barR {
+	background-color: #900;
+}
+
+#teamB {
+	position: absolute;
+	right: 15%;
+}
+#barB {
+	background-color: #029;
+}
