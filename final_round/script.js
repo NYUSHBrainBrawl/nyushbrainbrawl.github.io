@@ -45,12 +45,12 @@ function showdownStart() {
 		maxHB = barB.style.height;
 		console.log(timeR);
 		console.log(timeB);
-		document.addEventListener();
+		//document.addEventListener();
 		window.setInterval(timer, 10);
 
 		barR.style.transition = "all 0s";
 		barB.style.transition = "all 0s";
-		
+
 		document.addEventListener("keydown", function(e) {
 			if (e.keyCode == 32) {isR = !isR;}else {return;};
 			console.log(e.keyCode);
